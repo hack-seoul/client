@@ -10,7 +10,7 @@ import { PATH } from '@/constants/routes.ts';
 import HomePage from '@/pages/Home/HomePage.tsx';
 import ProfilePage from '@/pages/Profile/ProfilePage.tsx';
 import SearchPage from '@/pages/Search/SearchPage.tsx';
-import { ShowPangPage } from '@/pages/ShowPang/ShowPangPage.tsx';
+import ShowPangPage from '@/pages/ShowPang/ShowPangPage.tsx';
 import { QueryClientProvider } from '@/QueryClientProvider.tsx';
 
 const publicRoutes = [

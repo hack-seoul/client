@@ -2,6 +2,8 @@ import { Box, Flex, Text } from '@chakra-ui/react';
 import clsx from 'clsx';
 import { Link, useLocation } from 'react-router-dom';
 
+import UploadDrawer from '@/components/UploadDrawer.tsx';
+
 const Menu = () => {
   const { pathname } = useLocation();
 
@@ -52,19 +54,21 @@ const Menu = () => {
           <Text fontSize="11px">Search</Text>
         </Flex>
 
-        <Flex
-          as="button"
-          flexDir="column"
-          alignItems="center"
-          userSelect="none"
-        >
-          <span
-            className="material-symbols-outlined"
-            style={{ fontSize: '28px' }}
+        <UploadDrawer>
+          <Flex
+            as="button"
+            flexDir="column"
+            alignItems="center"
+            userSelect="none"
           >
-            add_circle
-          </span>
-        </Flex>
+            <span
+              className="material-symbols-outlined"
+              style={{ fontSize: '28px' }}
+            >
+              add_circle
+            </span>
+          </Flex>
+        </UploadDrawer>
 
         <Flex
           as="button"
