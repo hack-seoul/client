@@ -7,9 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { PATH } from '@/constants/routes.ts';
-// import LandingPage from '@/pages/Landing';
-// import LoginPage from '@/pages/Login';
-import VerticalSlider from '@/pages/Slide';
+import HomePage from '@/pages/Home/HomePage.tsx';
 import { QueryClientProvider } from '@/QueryClientProvider.tsx';
 
 const slides = [
@@ -29,7 +27,7 @@ const publicRoutes = [
     children: [
       {
         path: PATH.INDEX,
-        element: <VerticalSlider slides={slides} />,
+        element: <HomePage />,
       },
       {
         path: '*',
