@@ -1,11 +1,11 @@
 import { Box, Flex, Grid, Input, Spinner } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
 import { FormEvent, useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 import Layout from '@/components/Layout.tsx';
 import { SEARCH } from '@/constants/temp.ts';
-import Item from '@/pages/Search/Item.tsx';
+import VideoItem from '@/pages/Search/VideoItem.tsx';
 
 const SearchPage = () => {
   const { search: searchParams } = useLocation();
@@ -86,7 +86,7 @@ const SearchPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Item id={item.id} bgImage={item.url} title={item.title} />
+              <VideoItem id={item.id} title={item.title} />
             </motion.div>
           ))}
         </Grid>

@@ -19,6 +19,7 @@ const HomePage = () => {
         w="100%"
         h="100dvh"
         mb="-70px"
+        mt="-56px"
         alignItems="center"
         justifyContent="center"
       >

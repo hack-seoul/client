@@ -1,13 +1,13 @@
 export const SEARCH = [
   {
     id: '1',
-    url: '/images/1.png',
     title: 'Mom’s Mind Study',
+    url: 'https://www.coupang.com/vp/products/6595528613',
   },
   {
     id: '2',
-    url: '/images/2.png',
     title: 'Premium Kitchen',
+    url: '',
   },
   {
     id: '3',

@@ -1,6 +1,7 @@
 import { Button, Divider, Flex, Input, Select, Text } from '@chakra-ui/react';
 import { ReactNode, useState } from 'react';
 import { Drawer } from 'vaul';
+import { Link } from 'react-router-dom';
 
 type UploadDrawerProps = {
   children: ReactNode;
@@ -140,6 +141,8 @@ const UploadDrawer = ({ children }: UploadDrawerProps) => {
 
             <Drawer.Close asChild>
               <Button
+                as={Link}
+                to="/showpang?id=1"
                 mt="26px"
                 w="100%"
                 h="56px"

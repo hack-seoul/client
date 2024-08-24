@@ -1,21 +1,22 @@
 import Layout from '@/components/Layout.tsx';
-// import Menu from '@/components/Menu.tsx';
 import VerticalSlider from '@/components/Slide';
-import SlideItem from '@/components/SlideItem';
+import { SEARCH } from '@/constants/temp.ts';
+
+import SlideItem from './SlideItem.tsx';
 
 const ShowPangPage = () => {
-  // 원하는 슬라이드 아이템의 개수를 정의합니다.
-  const numberOfSlides = 3;
-
-  // SlideItem 컴포넌트를 여러 개 포함하는 배열을 생성합니다.
-  const slides = Array(numberOfSlides)
-    .fill(null)
-    .map((_, index) => <SlideItem key={index} />);
+  const slides = SEARCH.map(item => (
+    <SlideItem
+      key={item.id}
+      title={item.title}
+      videoUrl={`/videos/${item.id}.mp4`}
+      productUrl={item.url}
+    />
+  ));
 
   return (
-    <Layout inlinePadding={false}>
+    <Layout inlinePadding={false} showHeader={false}>
       <VerticalSlider slides={slides} />
-      {/* <Menu /> */}
     </Layout>
   );
 };
