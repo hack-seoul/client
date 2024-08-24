@@ -9,7 +9,7 @@ const Menu = () => {
     <Box pos="fixed" w="100%" left={0} bottom={0} bgColor="background">
       <Flex
         w="100%"
-        maxW="560px"
+        maxW="460px"
         h="60px"
         px="42px"
         mx="auto"

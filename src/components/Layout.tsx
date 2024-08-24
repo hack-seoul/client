@@ -13,7 +13,7 @@ const Layout = ({ children, inlinePadding = true }: LayoutProps) => {
     <Flex
       flexDir="column"
       w="100%"
-      maxW="560px"
+      maxW="460px"
       mx="auto"
       px={inlinePadding ? '24px' : 0}
       pb="60px"
