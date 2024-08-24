@@ -11,9 +11,9 @@ type LayoutProps = {
 const Layout = ({ children, inlinePadding = true }: LayoutProps) => {
   return (
     <Flex
+      flexDir="column"
       w="100%"
       maxW="560px"
-      h="100dvh"
       mx="auto"
       px={inlinePadding ? '24px' : 0}
       pb="60px"
