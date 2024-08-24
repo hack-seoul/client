@@ -1,0 +1,329 @@
+.short .background {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('assets/images/Rectangle335.jpeg') 50% / cover no-repeat;
+  position: absolute;
+  top: 0px;
+  right: -201px;
+  width: 639px;
+  height: 852px;
+}
+.short .time {
+  margin: 8.4px 10px 8.6px 0;
+  display: inline-block;
+  width: 54px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Text', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+}
+.short .dynamic-island {
+  border-radius: 18px;
+  background: #000000;
+  margin-right: 23px;
+  width: 125px;
+  height: 37px;
+}
+.short .cellular {
+  margin: 0.3px 7.3px 0.3px 0;
+  width: 19.3px;
+  height: 12.3px;
+}
+.short .wifi {
+  margin: 0.3px 7.3px 0.3px 0;
+  width: 17px;
+  height: 12.3px;
+}
+.short .percent {
+  border-radius: 2.7px;
+  background: #FFFFFF;
+  position: relative;
+  width: 10.3px;
+  height: 9px;
+}
+.short .battery {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 27.3px;
+  height: 13px;
+}
+.short .battery-percentage {
+  position: relative;
+  display: flex;
+  padding: 2px 15px 2px 2px;
+  width: 27.3px;
+  height: 13.7px;
+  box-sizing: border-box;
+}
+.short .status-pro {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: row;
+  width: 78.3px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.short .container-1 {
+  display: flex;
+  flex-direction: row;
+  width: 226.3px;
+  box-sizing: border-box;
+}
+.short .fixed {
+  position: relative;
+  margin: 0 32.7px 465px 32.7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 393px;
+  box-sizing: border-box;
+}
+.short .container-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Pretendard', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.short .play-arrow-1 {
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+}
+.short .group-5 {
+  position: relative;
+  margin: 235px 132.6px 0 0;
+  display: flex;
+  padding-left: 13.4px;
+  flex-grow: 1;
+  flex-basis: 182.6px;
+  box-sizing: border-box;
+}
+.short .thumb-up-1 {
+  margin: 0 3.7px 2px 3.7px;
+  width: 24px;
+  height: 24px;
+}
+.short .likes {
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+}
+.short .up {
+  margin: 0 3.1px 32px 3.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 6.2px);
+  box-sizing: border-box;
+}
+.short .chat-bubble-1 {
+  margin-bottom: 2px;
+  width: 24px;
+  height: 24px;
+}
+.short .container {
+  margin: 0 2px 0 3px;
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+}
+.short .comment {
+  margin: 0 6.8px 32px 6.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 13.6px);
+  box-sizing: border-box;
+}
+.short .ios-share-1 {
+  margin: 0 6.8px 2px 6.8px;
+  width: 24px;
+  height: 24px;
+}
+.short .export-1 {
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+}
+.short .export {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.short .more-vert-1 {
+  width: 24px;
+  height: 24px;
+}
+.short .menu-1 {
+  margin: 0 6.8px;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.short .button {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 37.6px;
+  box-sizing: border-box;
+}
+.short .container {
+  position: relative;
+  margin: 0 24.2px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 40.2px);
+  box-sizing: border-box;
+}
+.short .rectangle-103 {
+  background: #FFFFFF;
+  width: 156px;
+  height: 2px;
+}
+.short .progress {
+  background: rgba(255, 255, 255, 0.4);
+  position: relative;
+  width: 100%;
+  height: 2px;
+  box-sizing: border-box;
+}
+.short .home-1 {
+  width: 24px;
+  height: 24px;
+}
+.short .home-2 {
+  margin: 0 1.4px;
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.short .group-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.short .search {
+  margin: 0 3.9px;
+  width: 24px;
+  height: 24px;
+}
+.short .search-2 {
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.short .group-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.short .add-circle-1 {
+  margin: 4px 0;
+  width: 28px;
+  height: 28px;
+}
+.short .account-circle-1 {
+  width: 24px;
+  height: 24px;
+}
+.short .me {
+  margin: 0 6.2px 0 7.2px;
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.short .group-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.short .account-circle-2 {
+  width: 24px;
+  height: 24px;
+}
+.short .me-1 {
+  margin: 0 6.2px 0 7.2px;
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.short .group-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.short .frame-1 {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  box-sizing: border-box;
+}
+.short .rectangle-100 {
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-left: 11px;
+  width: 139px;
+  height: 5px;
+}
+.short .menu-2 {
+  background: #0F0F0F;
+  position: relative;
+  margin-right: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0 9px 0;
+  width: 393px;
+  box-sizing: border-box;
+}
+.short {
+  border-radius: 40px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 11px;
+  box-sizing: border-box;
+}

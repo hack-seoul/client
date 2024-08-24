@@ -1,0 +1,124 @@
+.home .time {
+  margin: 8.4px 10px 8.6px 0;
+  display: inline-block;
+  width: 54px;
+  overflow-wrap: break-word;
+  font-family: 'SF Pro Text', 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+}
+.home .dynamic-island {
+  border-radius: 18px;
+  background: #000000;
+  margin-right: 23px;
+  width: 125px;
+  height: 37px;
+}
+.home .cellular {
+  margin: 0.3px 7.3px 0.3px 0;
+  width: 19.3px;
+  height: 12.3px;
+}
+.home .wifi {
+  margin: 0.3px 7.3px 0.3px 0;
+  width: 17px;
+  height: 12.3px;
+}
+.home .percent {
+  border-radius: 2.7px;
+  background: #FFFFFF;
+  position: relative;
+  width: 10.3px;
+  height: 9px;
+}
+.home .battery {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 27.3px;
+  height: 13px;
+}
+.home .battery-percentage {
+  position: relative;
+  display: flex;
+  padding: 2px 15px 2px 2px;
+  width: 27.3px;
+  height: 13.7px;
+  box-sizing: border-box;
+}
+.home .status-pro {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: row;
+  width: 78.3px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.home .container {
+  display: flex;
+  flex-direction: row;
+  width: 226.3px;
+  box-sizing: border-box;
+}
+.home .fixed {
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 393px;
+  box-sizing: border-box;
+}
+.home .container {
+  margin: 0 14px 318px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.home .zoom-in {
+  opacity: 0.8;
+  margin-right: 13px;
+  width: 19px;
+  height: 19px;
+}
+.home .search {
+  opacity: 0.8;
+  overflow-wrap: break-word;
+  font-family: var(--mediumh-6-medium-font-family, 'Pretendard', 'Roboto Condensed');
+  font-weight: var(--mediumh-6-medium-font-weight, 500);
+  font-size: var(--mediumh-6-medium-font-size, 16px);
+  color: #727272;
+}
+.home .frame-122 {
+  border-radius: 16px;
+  border: 0.4px solid #181818;
+  background: #212121;
+  margin: 0 1px 373px 0;
+  display: flex;
+  flex-direction: row;
+  padding: 25.1px 0;
+  width: 264px;
+  box-sizing: border-box;
+}
+.home .rectangle-100 {
+  border-radius: 10px;
+  background: #000000;
+  width: 139px;
+  height: 5px;
+}
+.home {
+  border-radius: 40px;
+  background: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 32.7px 9px 32.7px;
+  box-sizing: border-box;
+}
