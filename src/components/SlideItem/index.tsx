@@ -6,29 +6,17 @@ const SlideItem: React.FC = () => {
     <div className="short">
       <div className="container">
         <div className="group-5">
+          <span className="material-symbols-outlined">play_arrow</span>
           <span className="container-1">외모지상주의. 1, 대원앤북</span>
-          <img
-            className="play-arrow-1"
-            src="/assets/vectors/PlayArrow_x2.svg"
-            alt="Play"
-          />
         </div>
         <div className="button">
           <div className="up">
-            <img
-              className="thumb-up-1"
-              src="../../../public/vectors/ThumbUp_x2.svg"
-              alt="Thumb up"
-            />
+            <span className="material-symbols-outlined">thumb_up</span>
             <span className="likes">Likes</span>
           </div>
           <div className="comment">
-            <img
-              className="chat-bubble-1"
-              src="../../../public/vectors/ChatBubble_x2.svg"
-              alt="Chat bubble"
-            />
-            <span className="container">229</span>
+            <span className="material-symbols-outlined">chat_bubble</span>
+            <span className="likes">229</span>
           </div>
           <div className="export">
             <span className="material-symbols-outlined">ios_share</span>

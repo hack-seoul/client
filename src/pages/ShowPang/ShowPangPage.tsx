@@ -7,7 +7,7 @@ import SlideItem from '@/components/SlideItem';
 
 export const ShowPangPage: React.FC = () => {
   // 원하는 슬라이드 아이템의 개수를 정의합니다.
-  const numberOfSlides = 5;
+  const numberOfSlides = 3;
 
   // SlideItem 컴포넌트를 여러 개 포함하는 배열을 생성합니다.
   const slides = Array(numberOfSlides)
