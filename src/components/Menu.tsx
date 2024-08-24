@@ -4,13 +4,12 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Menu = () => {
   const { pathname } = useLocation();
-  console.log(pathname);
 
   return (
-    <Box pos="fixed" w="100%" left={0} bottom={0}>
+    <Box pos="fixed" w="100%" left={0} bottom={0} bgColor="background">
       <Flex
         w="100%"
-        maxW="560px"
+        maxW="460px"
         h="60px"
         px="42px"
         mx="auto"
@@ -36,7 +35,8 @@ const Menu = () => {
         </Flex>
 
         <Flex
-          as="button"
+          as={Link}
+          to="/search"
           flexDir="column"
           alignItems="center"
           userSelect="none"

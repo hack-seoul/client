@@ -10,14 +10,18 @@ const HomePage = () => {
 
   const handleSearch = (event: FormEvent) => {
     event.preventDefault();
-    if (search.trim() !== '') {
-      navigate(`/search?query=${search}`);
-    }
+    if (search.trim() !== '') navigate(`/search?query=${search}`);
   };
 
   return (
     <Layout>
-      <Flex w="100%" h="100%" alignItems="center" justifyContent="center">
+      <Flex
+        w="100%"
+        h="100dvh"
+        mb="-70px"
+        alignItems="center"
+        justifyContent="center"
+      >
         <Box as="form" position="relative" onSubmit={handleSearch}>
           <Input
             w="264px"
