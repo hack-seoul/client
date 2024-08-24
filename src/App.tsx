@@ -8,13 +8,9 @@ import {
 
 import { PATH } from '@/constants/routes.ts';
 import HomePage from '@/pages/Home/HomePage.tsx';
+import ProfilePage from '@/pages/Profile/ProfilePage.tsx';
+import { ShortPangPage } from '@/pages/ShortPang/ShortPangPage.tsx';
 import { QueryClientProvider } from '@/QueryClientProvider.tsx';
-
-const slides = [
-  <div key="1">슬라이드 1</div>,
-  <div key="2">슬라이드 2</div>,
-  <div key="3">슬라이드 3</div>,
-];
 
 const publicRoutes = [
   {
@@ -28,6 +24,14 @@ const publicRoutes = [
       {
         path: PATH.INDEX,
         element: <HomePage />,
+      },
+      {
+        path: PATH.PROFILE,
+        element: <ProfilePage />,
+      },
+      {
+        path: PATH.SHORT_PANG,
+        element: <ShortPangPage />,
       },
       {
         path: '*',

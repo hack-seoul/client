@@ -7,7 +7,7 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <Flex w="100%" maxW="560px" mx="auto">
+    <Flex w="100%" maxW="560px" mx="auto" px="24px">
       {children}
     </Flex>
   );
