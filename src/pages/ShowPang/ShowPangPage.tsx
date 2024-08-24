@@ -1,11 +1,9 @@
-import React from 'react';
-
 import Layout from '@/components/Layout.tsx';
 // import Menu from '@/components/Menu.tsx';
 import VerticalSlider from '@/components/Slide';
 import SlideItem from '@/components/SlideItem';
 
-export const ShowPangPage: React.FC = () => {
+const ShowPangPage = () => {
   // 원하는 슬라이드 아이템의 개수를 정의합니다.
   const numberOfSlides = 3;
 
@@ -21,3 +19,5 @@ export const ShowPangPage: React.FC = () => {
     </Layout>
   );
 };
+
+export default ShowPangPage;

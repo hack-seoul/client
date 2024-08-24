@@ -1,7 +1,6 @@
-import React from 'react';
 import './slideitem.css';
 
-const SlideItem: React.FC = () => {
+const SlideItem = () => {
   return (
     <div className="short">
       <div className="container">
