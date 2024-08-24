@@ -9,14 +9,14 @@ export default function Search() {
           9:41
           </div>
           <div className="container-5">
-            <img className="dynamic-island" src="assets/vectors/DynamicIsland_x2.svg" />
+            <img className="dynamic-island" src="../../../public/vectors/DynamicIsland_x2.svg" />
             <div className="status-pro">
-              <img className="cellular" src="assets/vectors/Cellular3_x2.svg" />
-              <img className="wifi" src="assets/vectors/Wifi3_x2.svg" />
+              <img className="cellular" src="../../../public/vectors/Cellular3_x2.svg" />
+              <img className="wifi" src="../../../public/vectors/Wifi3_x2.svg" />
               <div className="battery-percentage">
                 <div className="percent">
                 </div>
-                <img className="battery" src="assets/vectors/Battery3_x2.svg" />
+                <img className="battery" src="../../../public/vectors/Battery3_x2.svg" />
               </div>
             </div>
           </div>
@@ -24,14 +24,14 @@ export default function Search() {
         <div className="container-1">
           <div className="frame-122">
             <div className="frame-121">
-              <img className="zoom-in" src="assets/vectors/ZoomIn_x2.svg" />
+              <img className="zoom-in" src="../../../public/vectors/ZoomIn_x2.svg" />
               <span className="search-4">
               Search
               </span>
             </div>
             <div className="frame-14">
               <div className="filter">
-                <img className="vector-2" src="assets/vectors/Vector1_x2.svg" />
+                <img className="vector-2" src="../../../public/vectors/Vector1_x2.svg" />
               </div>
               <span className="filter-1">
               Filter
@@ -69,26 +69,26 @@ export default function Search() {
       </div>
       <div className="menu">
         <div className="group-1">
-          <img className="home" src="assets/vectors/Home_x2.svg" />
+          <img className="home" src="../../../public/vectors/Home_x2.svg" />
           <span className="home-2">
           Home
           </span>
         </div>
         <div className="group-2">
-          <img className="search" src="assets/vectors/Search1_x2.svg" />
+          <img className="search" src="../../../public/vectors/Search1_x2.svg" />
           <span className="search-2">
           Search
           </span>
         </div>
-        <img className="add-circle" src="assets/vectors/AddCircle1_x2.svg" />
+        <img className="add-circle" src="../../../public/vectors/AddCircle1_x2.svg" />
         <div className="group-3">
-          <img className="account-circle" src="assets/vectors/AccountCircle3_x2.svg" />
+          <img className="account-circle" src="../../../public/vectors/AccountCircle3_x2.svg" />
           <span className="me">
           Me
           </span>
         </div>
         <div className="group-4">
-          <img className="account-circle-2" src="assets/vectors/AccountCircle1_x2.svg" />
+          <img className="account-circle-2" src="../../../public/vectors/AccountCircle1_x2.svg" />
           <span className="me-1">
           Me
           </span>

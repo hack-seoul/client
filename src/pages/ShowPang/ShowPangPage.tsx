@@ -15,7 +15,7 @@ export const ShowPangPage: React.FC = () => {
     .map((_, index) => <SlideItem key={index} />);
 
   return (
-    <Layout>
+    <Layout inlinePadding={false}>
       <VerticalSlider slides={slides} />
       {/* <Menu /> */}
     </Layout>
