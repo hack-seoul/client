@@ -1,4 +1,5 @@
 import { Box, Flex, Text } from '@chakra-ui/react';
+import clsx from 'clsx';
 import { Link, useLocation } from 'react-router-dom';
 
 const Menu = () => {
@@ -10,7 +11,7 @@ const Menu = () => {
       <Flex
         w="100%"
         maxW="560px"
-        py="8px"
+        h="60px"
         px="42px"
         mx="auto"
         justifyContent="space-between"
@@ -23,7 +24,14 @@ const Menu = () => {
           alignItems="center"
           userSelect="none"
         >
-          <span className="material-symbols-outlined">home</span>
+          <span
+            className={clsx(
+              'material-symbols-outlined',
+              pathname === '/' && 'fill',
+            )}
+          >
+            home
+          </span>
           <Text fontSize="11px">Home</Text>
         </Flex>
 
@@ -33,7 +41,14 @@ const Menu = () => {
           alignItems="center"
           userSelect="none"
         >
-          <span className="material-symbols-outlined">search</span>
+          <span
+            className={clsx(
+              'material-symbols-outlined',
+              pathname === '/search' && 'fill',
+            )}
+          >
+            search
+          </span>
           <Text fontSize="11px">Search</Text>
         </Flex>
 
@@ -68,7 +83,14 @@ const Menu = () => {
           alignItems="center"
           userSelect="none"
         >
-          <span className="material-symbols-outlined">account_circle</span>
+          <span
+            className={clsx(
+              'material-symbols-outlined',
+              pathname === '/profile' && 'fill',
+            )}
+          >
+            account_circle
+          </span>
           <Text fontSize="11px">Me</Text>
         </Flex>
       </Flex>
