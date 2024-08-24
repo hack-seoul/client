@@ -29,9 +29,9 @@ export const SEARCH = [
     url: 'https://thumbnail10.coupangcdn.com/thumbnails/remote/x/image/bannerunit/bannerunit_50cfb41c-2af0-4b95-b536-190c315525c5.jpg',
     title: 'Kitchen Trends of the Week Sale',
   },
-  {
-    id: '7',
-    url: 'https://static.coupangcdn.com/za/cmg_paperboy/image/1723451653741/C3_PC-%28%E1%84%8C%E1%85%AE%29%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%B2.jpg',
-    title: 'Daycare Essentials Collection',
-  },
+  // {
+  //   id: '7',
+  //   url: 'https://static.coupangcdn.com/za/cmg_paperboy/image/1723451653741/C3_PC-%28%E1%84%8C%E1%85%AE%29%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%B2.jpg',
+  //   title: 'Daycare Essentials Collection',
+  // },
 ];

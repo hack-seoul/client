@@ -6,6 +6,15 @@ import UploadDrawer from '@/components/UploadDrawer.tsx';
 
 const Menu = () => {
   const { pathname } = useLocation();
+  const location = useLocation();
+  const isSearchPage = location.pathname === '/search';
+  const handleClick = () => {
+    // 새 탭에서 쿠팡 홈페이지 열기
+    window.open('https://www.coupang.com', '_blank', 'noopener,noreferrer');
+
+    // 또는 현재 페이지에서 쿠팡 홈페이지로 이동
+    // window.location.href = "https://www.coupang.com";
+  };
 
   return (
     <Box pos="fixed" w="100%" left={0} bottom={0} bgColor="background">
@@ -38,7 +47,7 @@ const Menu = () => {
 
         <Flex
           as={Link}
-          to="/search"
+          to={isSearchPage ? '/' : '/search'}
           flexDir="column"
           alignItems="center"
           userSelect="none"
@@ -46,7 +55,7 @@ const Menu = () => {
           <span
             className={clsx(
               'material-symbols-outlined',
-              pathname === '/search' && 'fill',
+              isSearchPage && 'fill',
             )}
           >
             search
@@ -75,6 +84,7 @@ const Menu = () => {
           flexDir="column"
           alignItems="center"
           userSelect="none"
+          onClick={handleClick}
         >
           <span className="material-symbols-outlined">rocket</span>
           <Text fontSize="11px">Coupang</Text>
