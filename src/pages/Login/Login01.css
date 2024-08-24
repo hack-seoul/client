@@ -1,0 +1,151 @@
+.login-01 .bg-circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.login-01 .live {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'JK Abode', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 120px;
+  letter-spacing: 2.4px;
+  color: #ffffff;
+}
+.login-01 .logo {
+  position: relative;
+  margin-bottom: 70px;
+  display: flex;
+  padding: 280px 0 41px 15px;
+  width: 462px;
+  box-sizing: border-box;
+}
+.login-01 .enter-email-or-user-name {
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.login-01 .login-1 {
+  border-radius: 8px;
+  background: #eceff2;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 18.5px 26px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-01 .password {
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.login-01 .login-2 {
+  border-radius: 8px;
+  background: #eceff2;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 18.5px 26px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-01 .rectangle-5 {
+  border: 1px solid #8d8d8d;
+  background: #ffffff;
+  margin: 4px 5px 4px 0;
+  width: 15px;
+  height: 15px;
+}
+.login-01 .container-2 {
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.login-01 .container-1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.login-01 .rectangle-6 {
+  border: 1px solid #8d8d8d;
+  background: #ffffff;
+  margin: 4px 5px 4px 0;
+  width: 15px;
+  height: 15px;
+}
+.login-01 .container-3 {
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.login-01 .container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.login-01 .login-3 {
+  margin: 0 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 256px;
+  box-sizing: border-box;
+}
+.login-01 .login {
+  margin: 0 19px 70px 19px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 38px);
+  box-sizing: border-box;
+}
+.login-01 .container-1 {
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  font-size: 22px;
+  color: #ffffff;
+}
+.login-01 .login-button-1 {
+  border-radius: 8px;
+  background: #2f80ed;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  padding: 14px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-01 .container {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.login-01 .login-button {
+  border-radius: 8px;
+  margin: 0 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 38px);
+  box-sizing: border-box;
+}
+.login-01 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 88px;
+  box-sizing: border-box;
+}
