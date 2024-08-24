@@ -6,6 +6,6 @@ const slides = [
   <div key="3">슬라이드 3</div>,
 ];
 
-export const ShortPangPage = () => {
+export const ShowPangPage = () => {
   return <VerticalSlider slides={slides} />;
 };

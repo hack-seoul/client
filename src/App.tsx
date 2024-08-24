@@ -9,7 +9,7 @@ import {
 import { PATH } from '@/constants/routes.ts';
 import HomePage from '@/pages/Home/HomePage.tsx';
 import ProfilePage from '@/pages/Profile/ProfilePage.tsx';
-import { ShortPangPage } from '@/pages/ShortPang/ShortPangPage.tsx';
+import { ShowPangPage } from '@/pages/ShowPang/ShowPangPage.tsx';
 import { QueryClientProvider } from '@/QueryClientProvider.tsx';
 
 const publicRoutes = [
@@ -30,8 +30,8 @@ const publicRoutes = [
         element: <ProfilePage />,
       },
       {
-        path: PATH.SHORT_PANG,
-        element: <ShortPangPage />,
+        path: PATH.SHOW_PANG,
+        element: <ShowPangPage />,
       },
       {
         path: '*',
