@@ -1,0 +1,13 @@
+<svg width="244" height="244" viewBox="0 0 244 244" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect  x="0" y="0" width="100" height="100" rx="2" stroke="#4D4D4D" stroke-width="6" stroke-miterlimit="3.999327"/>
+<rect  x="36" y="36" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="36" y="168" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="168" y="168" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="132" y="132" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="132" y="204" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="204" y="132" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="204" y="204" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="168" y="36" width="40" height="40" rx="8" fill="#4D4D4D"/>
+<rect  x="132" y="0" width="100" height="100" rx="2" stroke="#4D4D4D" stroke-width="6" stroke-miterlimit="3.999327"/>
+<rect  x="0" y="132" width="100" height="100" rx="2" stroke="#4D4D4D" stroke-width="6" stroke-miterlimit="3.999327"/>
+</svg>
