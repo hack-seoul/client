@@ -1,7 +1,7 @@
 import { Button, Divider, Flex, Input, Select, Text } from '@chakra-ui/react';
 import { ReactNode, useState } from 'react';
-import { Drawer } from 'vaul';
 import { Link } from 'react-router-dom';
+import { Drawer } from 'vaul';
 
 type UploadDrawerProps = {
   children: ReactNode;
@@ -133,10 +133,18 @@ const UploadDrawer = ({ children }: UploadDrawerProps) => {
               >
                 Platform
               </option>
-              <option value="instagram">Instagram</option>
-              <option value="youtube">Youtube</option>
-              <option value="tiktok">Tiktok</option>
-              <option value="xiaohongshu">小紅書</option>
+              <option value="instagram" style={{ color: 'black' }}>
+                Instagram
+              </option>
+              <option value="youtube" style={{ color: 'black' }}>
+                Youtube
+              </option>
+              <option value="tiktok" style={{ color: 'black' }}>
+                Tiktok
+              </option>
+              <option value="xiaohongshu" style={{ color: 'black' }}>
+                小紅書
+              </option>
             </Select>
 
             <Drawer.Close asChild>

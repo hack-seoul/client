@@ -18,8 +18,13 @@ const SearchPage = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   const handleSearch = (event: FormEvent) => {
+    setLoading(true);
     event.preventDefault();
     if (search.trim() !== '') navigate(`/search?query=${search}`);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
   };
 
   useEffect(() => {
