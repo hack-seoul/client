@@ -6,6 +6,9 @@
 - Repository URL: [https://github.com/hack-seoul/client](https://github.com/hack-seoul/client)
 
 ### Introduce
+This project aimed to address the challenges Coupang faces in its expansion into Taiwan. To solve the problem of Coupang's lack of brand awareness, we devised a marketing strategy utilizing short-form content.
+We structured our business model to encourage voluntary participation by offering rewards to influencers proportional to the number of buyers who purchase products through their referral links. This approach allows for organic engagement and promotion.
+The use of short-form content for marketing and the influencer-based referral system are innovative strategies that could potentially help Coupang overcome its brand awareness issues in the Taiwanese market. This model leverages the power of social media and word-of-mouth marketing, which can be particularly effective in building trust and recognition in a new market.
 
 ### Installation
 
