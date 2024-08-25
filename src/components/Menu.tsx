@@ -92,17 +92,12 @@ const Menu = () => {
 
         <Flex
           as={Link}
-          to="/profile"
           flexDir="column"
           alignItems="center"
           userSelect="none"
+          onClick={handleClick}
         >
-          <span
-            className={clsx(
-              'material-symbols-outlined',
-              pathname === '/profile' && 'fill',
-            )}
-          >
+          <span className={clsx('material-symbols-outlined')}>
             account_circle
           </span>
           <Text fontSize="11px">Me</Text>
